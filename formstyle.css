@@ -1,0 +1,204 @@
+/* NAVBAR STYLING */
+body{
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+.nav2{
+    text-align: center;
+    width: 100%;
+    position:fixed;
+    /* position: relative;
+    bottom:16px; */
+    background-color: #0137a7;
+    height: 60px;
+    font-size: 17px;
+   
+}
+.nav2 #logo2{
+    padding: 10px;
+    width:180px;
+    height: 45px;
+}
+
+#signup2{
+    color: blue;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+}
+.signupform{
+    color: white;
+    padding: 10px;
+    background-color: #0137a7;
+    margin: 100px;
+    border-radius: 10px;
+    width: 50%;
+    height: 500px;
+    box-shadow: black;
+
+}
+
+.signinform{
+
+    /* margin-top: 150px; */
+    padding: 10px;
+    background-color: #0137a7;
+    border-radius: 10px;
+    margin: 200px;
+    width: 570px;
+    height: 270px;
+    box-shadow: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.border{
+    background-color: grey;
+    border-radius: 2px;
+    height: 2px;
+    width: 95%;
+    margin-bottom: 15px;
+
+  }
+
+.box-1{
+    display: flex;
+    justify-content:left;
+}
+
+.box-1 h2{
+        margin-right: 50px;
+        padding: 0px 10px;
+        color: white;
+}
+
+.box-2{
+    display: flex;
+    justify-content: left;
+}
+
+.box-2 h2{
+    margin-right: 50px;
+    padding: 0px 10px;
+    color: white;
+}
+
+.box-3{
+    display: inline;
+    justify-content: center;
+    padding: 60px;
+}
+
+.box-4{
+    background-color: black;
+    width: 40%;
+    height:290px;
+    
+    margin: 0;
+}
+
+.box-4 img{
+    width: 290px;
+    height: 290px;
+    
+}
+
+#email{
+    color: black;
+    height: 30px;
+    width: 90%;
+    margin-bottom: 10px;
+    border: none;
+    border-left:2px solid #2f73fc;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#pass{
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-left:2px solid #2f73fc;
+    width: 90%;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#user{
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-left:2px solid #2f73fc;
+    width: 90%;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#formtitle{
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-left:2px solid #2f73fc;
+    width: 25%;
+    font-size: 15px;
+}
+
+#formdate{
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-left:2px solid #2f73fc;
+    width: 45%;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#Fname{
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-left:2px solid #2f73fc;
+    width: 90%;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#Lname{
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-left:2px solid #2f73fc;
+    width: 90%;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#signupbtn{
+    height: 30px;
+    border: none;
+    border-left:2px solid #2f73fc;
+    margin-left:15px ;
+    padding: 0px 40px;
+    font-size: 16px;
+}
+
+#signupbtn:hover{
+    background-color: #011d57;
+    color: white;
+    border: none;
+    /* border-left:2px solid white; */
+    transition: background 1s;
+}

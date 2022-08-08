@@ -1,0 +1,470 @@
+body{
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    margin:0;
+    font-size:16px;
+	line-height:0.5em;
+    
+   
+}
+
+*:focus {
+    outline: none;
+}
+
+.content{
+    background-color:#e8effd;
+    width: auto;
+    /* height: 600px; */
+    margin: 0;
+}
+
+
+/* NAVBAR STYLE */
+nav{
+    width: 100%;
+    position:fixed;
+    /* position: relative;
+    bottom:16px; */
+    background-color:white;
+    height: 70px;
+    font-size: 17px;
+    margin:0;
+    
+}
+
+.nav ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    bottom:15px;
+    
+    
+    
+}
+
+.nav ul li{
+    margin-left: 25px;
+    list-style: none;
+}
+
+.nav ul li a{
+    color: #0137a7;
+    text-decoration: none;
+    position: relative;
+}
+
+/* .nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    position:absolute;
+    bottom:-5px;
+    left:50%;
+    transform:translatex(-50%);
+    background-color: black;
+    transition: width 0.5s;
+ } */
+
+ .nav ul #navitems a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    position:absolute;
+    bottom:-5px;
+    left:50%;
+    transform:translate(-50%);
+    background-color: #0137a7;
+    transition: width 0.5s;
+}
+
+.nav ul #navitems a:hover::after{
+    width: 50%;
+}
+
+.nav ul #navitems{
+    display:flex;
+    align-items: center;
+}
+
+ .nav ul li a:hover::after{
+     width: 50%;
+}
+
+.nav #logo{
+    width:100px;
+    height: 80px;
+}
+
+.nav #signup a{
+    border: 2px solid #0137a7;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.nav #signup a:hover{
+    background-color: #0137a7;
+    color:white;
+    /* transition: background color 1s; */
+    transition: color 1s;
+}
+
+
+#closebtn a{
+    position: relative;
+    left: 80px;
+    bottom: 0px;
+    font-size:30px;
+    text-decoration: none;
+    color:white;
+}
+
+#closebtn a:hover{
+    color:#0757f7;
+    transition: color 1s;
+}
+
+#formsignup{
+    color: white;
+    display: none;
+    position: relative;
+    bottom: 330px;
+    left: 1040px;
+    position: fixed;
+    width: 200px;
+    /* height: 180px; */
+    background-color: #0137a7;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 0;
+}
+
+#formsignup input{
+    height: 30px;
+    text-align: center;
+    border-style: none;
+    border-bottom: 2px solid #6295fa;
+}
+
+#formsignup p{
+    padding-top: 10px;
+    font-size:15px;
+}
+
+#formchg{
+    color:white;
+}
+
+/* posittioning */
+
+#logo{
+    position: relative;
+    right:340px;
+}
+
+#navitems{
+    position: relative;
+    right: 250px;
+}
+
+#signup{
+    position: relative;
+    left:250px;
+}
+
+/* HOMEPAGE HEADER */
+
+header{
+    width: auto;
+    height: 670px;
+    background-image: url(img/img2.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    color: white;
+    margin:0;
+}
+
+#headtext{
+    padding:20px;
+    padding-top: 100px;
+}
+
+#headtext h1{
+    margin-bottom: 20px;
+    font-size: 80px;
+}
+
+#subtext{
+    margin-top:30px;
+    margin-bottom:30px;
+    padding-left: 10px;
+    text-align: justify;
+    width: 250px;
+    /* height: 120px; */
+    word-spacing:0;
+    line-height: 15px;
+    font-size: 30px;
+    
+}
+
+#headbutton{
+    margin-top: 60px;
+    padding-left: 10px;
+}
+
+#headbutton a{
+    text-decoration: none;
+    color:white;
+    border:2px solid #0137a7;
+    background-color: #0137a7;
+    border-radius: 3px;
+    padding:15px;
+}
+
+#headbutton a:hover{
+    background-color: #011949;
+    border:2px solid #011949;
+    transition: background 0.5s;
+}
+
+/* NEWSLETTER STYLING */
+
+.newsletter{
+    text-align: center;
+    height: 200px;
+    width: auto;
+    background-image: url(img/img8.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 40px;
+    padding: 30px;
+    font-size: 18px;
+}
+
+.newsletter h3{
+    font-size: 25px;
+}
+
+.newsletter input{
+    height: 30px;
+    width: 40%;
+    text-align: center;
+    /* border-style: none; */
+    border: 2px solid #0137a7;
+}
+
+.newsletter #newsbtn{
+    width: 10%;
+    height: 35px;
+}
+
+.newsletter #newsbtn{
+    width: 10%;
+    height: 35px;
+}
+
+.newsletter #newsbtn:hover{
+    border: 2px solid #0137a7;
+    background-color: #0137a7;
+    color: white;
+    transition: background 0.5s;
+}
+
+.newsletter #emaildisplay{
+    margin-top: 15px;
+    color: red;
+}
+
+/* #newspopup{
+    display: none;
+} */
+
+/* CONTENT STYLING */
+
+.link{
+    /* margin: 25px; */
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    width: auto;
+    background-color: #e8effd;
+}
+
+.linkcont{
+    background-color: #0450e7;
+    width: auto;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.linkcont button{
+    
+    padding: 10px;
+    width: 100px;
+    font-size: 15px;
+    /* border:2px solid black ; */
+    border-radius: 15px;
+    border-style: none;
+    color: #0137a7;
+}
+
+.linkcont button:hover{
+    color: white;
+    background-color:#0137a7 ;
+    transition: color 1s;
+}
+
+.linkcont img{
+        width: 350px;
+        height: 220px;
+        border-radius: 5px;
+}
+
+.linkcont p{
+    text-align: center;
+    line-height: 13px;
+    width: 300px;
+    padding-left: 60px;
+    color: white;
+}
+
+/* CHECKER APP STYLING */
+
+.ticketchecker{
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 870px;
+    height: 250px;
+    background-color: #0450e7;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.ticketchecker label{
+    font-size: 30px;
+    
+}
+
+#pricebtn{
+    border: 2px solid #0137a7;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100px;
+    font-size:15px;
+    color: #0137a7;
+    
+}
+
+#pricebtn:hover{
+    color: white;
+    background-color:#0137a7 ;
+    transition: color 1s;
+}
+
+#location{
+    height: 40px;
+    width: 450px;
+    text-align: center;
+    /* border-style: none; */
+    border: 2px solid #0137a7;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size:15px;
+}
+
+#result{
+    margin:10px;
+    font-size: 45px;
+    border: 2px solid #0137a7;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    color: #0137a7;
+}
+
+/* FOOTER STYLING */
+
+footer{
+    width: auto;
+    margin-top:50px;
+    height: 400px;
+    background-color: #0137a7;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footercont{
+    /* width:100%; */
+    background-color: #0137a7;
+    height: 350px;
+    margin:40px 20px;
+}
+
+.footercont #logo2{
+    padding: 10px 40px;
+    width: 180px;
+    height: 70px;
+    
+}
+
+.footercont .border{
+  background-color: grey;
+  border-radius: 2px;
+  height: 2px;
+  width: 95%;
+  margin-left: 22px;
+}
+
+/* FOOTER LINKS */
+
+.footerlinks{
+    display:flex;
+    justify-content:center;
+    width: 100%;
+    
+    
+}
+
+.footerlinks ul{
+    margin: 30px 40px;
+    line-height: 15px;
+    list-style: none;
+}
+
+.footerlinks ul .foothead{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.footerlinks ul li a{
+    margin:0px;
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footerlinks ul li a:hover{
+    
+    text-decoration: underline;
+    transition: border 0.5s;
+   
+}
+
+/* .footerlinks #footlist1 ul li a{
+    line-height: 2px;
+} */
